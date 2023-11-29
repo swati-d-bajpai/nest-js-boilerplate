@@ -1,9 +1,4 @@
-https://www.linkedin.com/in/andrechristikan/[![Contributors][ack-contributors-shield]][ack-contributors]
-[![Forks][ack-forks-shield]][ack-forks]
-[![Stargazers][ack-stars-shield]][ack-stars]
-[![Issues][ack-issues-shield]][ack-issues]
-[![MIT License][ack-license-shield]][license]
-
+www.linkedin.com/in/swati-bajpai-7386b2179
 [![NestJs][nestjs-shield]][ref-nestjs]
 [![NodeJs][nodejs-shield]][ref-nodejs]
 [![Typescript][typescript-shield]][ref-typescript]
@@ -13,21 +8,16 @@ https://www.linkedin.com/in/andrechristikan/[![Contributors][ack-contributors-sh
 [![Yarn][yarn-shield]][ref-yarn]
 [![Docker][docker-shield]][ref-docker]
 
-# ACK NestJs Boilerplate  🔥 🚀
+# NestJs Boilerplate  🔥 🚀
 
 > This repo will representative of authentication service and authorization service
 
-[ACK NestJs][ack] is a [Http NestJs v10.x][ref-nestjs] boilerplate. Best uses for backend service.
+[NestJs][] is a [Http NestJs v10.x][ref-nestjs] boilerplate. Best uses for bend service.
 
-*You can [request feature][ack-issues] or [report bug][ack-issues] with following this link*
-
-## Other Repo
-
-* [Kafka Integration][ack-kafka] : Microservice (Apache Kafka Integration) **OUTDATED**
-
+*You can [request feature][-issues] or [report bug][-issues] with following this link*
 ## Table of contents
 
-- [ACK NestJs Boilerplate  🔥 🚀](#ack-nestjs-boilerplate---)
+- [ NestJs Boilerplate  🔥 🚀](#-nestjs-boilerplate---)
   - [Other Repo](#other-repo)
   - [Table of contents](#table-of-contents)
   - [Important](#important)
@@ -321,8 +311,8 @@ We assume that everyone who comes here is **`programmer with intermediate knowle
 
 ## Getting Started
 
-Before start, we need to install some packages and tools.
-The recommended version is the LTS version for every tool and package.
+Before start, we need to install some pages and tools.
+The recommended version is the LTS version for every tool and page.
 
 > Make sure to check that the tools have been installed successfully.
 
@@ -336,7 +326,7 @@ The recommended version is the LTS version for every tool and package.
 Clone the project with git.
 
 ```bash
-git clone https://github.com/andrechristikan/ack-nestjs-boilerplate.git
+git clone https://github.com/andrechristikan/-nestjs-boilerplate.git
 ```
 
 ### Install Dependencies
@@ -417,7 +407,7 @@ In this case primary will be `mongo1`
     ...
 
     DATABASE_HOST=mongodb://mongo1:27017,mongo2:27017,mongo3:27017
-    DATABASE_NAME=ack
+    DATABASE_NAME=
     DATABASE_USER=
     DATABASE_PASSWORD=
     DATABASE_DEBUG=false
@@ -447,7 +437,7 @@ yarn seed
 For remove all data do
 
 ```bash
-yarn rollback
+yarn rollb
 ```
 
 ## API Reference
@@ -517,7 +507,7 @@ How to contribute in this repo
     git push origin -u main
     ```
 
-6. Back to browser, goto your fork repo github. Then, click `Compare & pull request`
+6. B to browser, goto your fork repo github. Then, click `Compare & pull request`
 
 If your code behind commit with the original, please update your code and resolve the conflict. Then, repeat from number 6.
 
@@ -528,7 +518,7 @@ If your code behind commit with the original, please update your code and resolv
 * Always make `service` for every module is independently.
 * Do not put `controller` into service modules, cause this will break the dependency. Only put the controller into `router` and then inject the dependency.
 * Put the config in `/configs` folder, and for dynamic config put as `environment variable`
-* `CommonModule` only for main package, and put the module that related of service/project into `/src/modules`. So, if we want to clear the unnecessary module, we just need to delete the `src/modules/**`
+* `CommonModule` only for main page, and put the module that related of service/project into `/src/modules`. So, if we want to clear the unnecessary module, we just need to delete the `src/modules/**`
 * If there a new service in CommonModule. Make sure to create the unit test in `/unit`.
 
 ## Contact
@@ -539,11 +529,11 @@ If your code behind commit with the original, please update your code and resolv
 [![LinkedIn][linkedin-shield]][author-linkedin]
 
 <!-- BADGE LINKS -->
-[ack-contributors-shield]: https://img.shields.io/github/contributors/andrechristikan/ack-nestjs-boilerplate?style=for-the-badge
-[ack-forks-shield]: https://img.shields.io/github/forks/andrechristikan/ack-nestjs-boilerplate?style=for-the-badge
-[ack-stars-shield]: https://img.shields.io/github/stars/andrechristikan/ack-nestjs-boilerplate?style=for-the-badge
-[ack-issues-shield]: https://img.shields.io/github/issues/andrechristikan/ack-nestjs-boilerplate?style=for-the-badge
-[ack-license-shield]: https://img.shields.io/github/license/andrechristikan/ack-nestjs-boilerplate?style=for-the-badge
+[-contributors-shield]: https://img.shields.io/github/contributors/andrechristikan/-nestjs-boilerplate?style=for-the-badge
+[-forks-shield]: https://img.shields.io/github/forks/andrechristikan/-nestjs-boilerplate?style=for-the-badge
+[-stars-shield]: https://img.shields.io/github/stars/andrechristikan/-nestjs-boilerplate?style=for-the-badge
+[-issues-shield]: https://img.shields.io/github/issues/andrechristikan/-nestjs-boilerplate?style=for-the-badge
+[-license-shield]: https://img.shields.io/github/license/andrechristikan/-nestjs-boilerplate?style=for-the-badge
 
 [nestjs-shield]: https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white
 [nodejs-shield]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
@@ -558,20 +548,9 @@ If your code behind commit with the original, please update your code and resolv
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 
 <!-- CONTACTS -->
-[author-linkedin]: https://linkedin.com/in/andrechristikan
-[author-email]: mailto:ack@baibay.id
-[author-github]: https://github.com/andrechristikan
-
-<!-- Repo LINKS -->
-[ack-issues]: https://github.com/andrechristikan/ack-nestjs-boilerplate/issues
-[ack-stars]: https://github.com/andrechristikan/ack-nestjs-boilerplate/stargazers
-[ack-forks]: https://github.com/andrechristikan/ack-nestjs-boilerplate/network/members
-[ack-contributors]: https://github.com/andrechristikan/ack-nestjs-boilerplate/graphs/contributors
-
-<!-- Other Repo Links -->
-[ack]: https://github.com/andrechristikan/ack-nestjs-boilerplate
-[ack-typeorm]: https://github.com/andrechristikan/nestjs-boilerplate-typeorm
-[ack-kafka]: https://github.com/andrechristikan/ack-nestjs-boilerplate-kafka
+[author-linkedin]: www.linkedin.com/in/swati-bajpai-7386b2179
+[author-email]: mailto:@swatvat@gmail.com
+[author-github]: https://github.com/swati-d-bajpai
 
 <!-- license -->
 [license]: LICENSE.md
