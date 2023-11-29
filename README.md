@@ -18,7 +18,6 @@ www.linkedin.com/in/swati-bajpai-7386b2179
 ## Table of contents
 
 - [ NestJs Boilerplate  🔥 🚀](#-nestjs-boilerplate---)
-  - [Other Repo](#other-repo)
   - [Table of contents](#table-of-contents)
   - [Important](#important)
   - [Next Todo](#next-todo)
@@ -326,7 +325,7 @@ The recommended version is the LTS version for every tool and page.
 Clone the project with git.
 
 ```bash
-git clone https://github.com/andrechristikan/-nestjs-boilerplate.git
+git clone https://github.com/swati-d-bajpai/nest-js-boilerplate.git
 ```
 
 ### Install Dependencies
@@ -523,17 +522,10 @@ If your code behind commit with the original, please update your code and resolv
 
 ## Contact
 
-[Andre Christi kan][author-email]
+[Swati Bajpai][author-email]
 
 [![Github][github-shield]][author-github]
 [![LinkedIn][linkedin-shield]][author-linkedin]
-
-<!-- BADGE LINKS -->
-[-contributors-shield]: https://img.shields.io/github/contributors/andrechristikan/-nestjs-boilerplate?style=for-the-badge
-[-forks-shield]: https://img.shields.io/github/forks/andrechristikan/-nestjs-boilerplate?style=for-the-badge
-[-stars-shield]: https://img.shields.io/github/stars/andrechristikan/-nestjs-boilerplate?style=for-the-badge
-[-issues-shield]: https://img.shields.io/github/issues/andrechristikan/-nestjs-boilerplate?style=for-the-badge
-[-license-shield]: https://img.shields.io/github/license/andrechristikan/-nestjs-boilerplate?style=for-the-badge
 
 [nestjs-shield]: https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white
 [nodejs-shield]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
@@ -548,7 +540,7 @@ If your code behind commit with the original, please update your code and resolv
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 
 <!-- CONTACTS -->
-[author-linkedin]: www.linkedin.com/in/swati-bajpai-7386b2179
+[author-linkedin]: https://www.linkedin.com/in/swati-bajpai-7386b2179/
 [author-email]: mailto:@swatvat@gmail.com
 [author-github]: https://github.com/swati-d-bajpai
 
