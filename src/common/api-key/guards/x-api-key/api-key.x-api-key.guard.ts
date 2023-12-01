@@ -16,8 +16,6 @@ export class ApiKeyXApiKeyGuard extends AuthGuard('api-key') {
     }
 
     canActivate(context: ExecutionContext) {
-        const { headers } = context.switchToHttp().getRequest();
-        console.log("headers",headers);
         return super.canActivate(context);
     }
 
@@ -26,9 +24,6 @@ export class ApiKeyXApiKeyGuard extends AuthGuard('api-key') {
         apiKey: IApiKeyPayload,
         info: Error | string
     ): IApiKeyPayload {
-        console.log("apiKeyyyyy",apiKey);
-        console.log("errrrr",err);
-        console.log("infooo",info);
         if (err || !apiKey) {
             if (
                 info instanceof BadRequestError &&

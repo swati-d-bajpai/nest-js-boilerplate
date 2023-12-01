@@ -342,7 +342,7 @@ export class UserPublicController {
         return;
     }
 
-    // @ApiExcludeEndpoint()
+    @ApiExcludeEndpoint()
     @Response('user.signUpGoogleCallback')
     @AuthGoogleOAuth2SignUpProtected()
     @HttpCode(HttpStatus.CREATED)

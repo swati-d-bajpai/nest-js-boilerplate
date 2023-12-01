@@ -131,7 +131,7 @@ export class ApiKeyAdminController {
             },
             order: _order,
         });
-        console.log("object",apiKeys);
+
         const total: number = await this.apiKeyService.getTotal(find);
         const totalPage: number = this.paginationService.totalPage(
             total,
@@ -168,7 +168,7 @@ export class ApiKeyAdminController {
         action: [ENUM_POLICY_ACTION.READ, ENUM_POLICY_ACTION.CREATE],
     })
     @AuthJwtAdminAccessProtected()
-    // @ApiKeyPublicProtected()
+    @ApiKeyPublicProtected()
     @Post('/create')
     async create(@Body() body: ApiKeyCreateDto): Promise<IResponse> {
         const created: IApiKeyCreated = await this.apiKeyService.create(body);

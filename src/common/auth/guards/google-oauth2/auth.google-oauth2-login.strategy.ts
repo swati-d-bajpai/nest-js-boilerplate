@@ -10,6 +10,7 @@ export class AuthGoogleOAuth2LoginStrategy extends PassportStrategy(
     Strategy,
     'googleLogin'
 ) {
+
     constructor(private readonly configService: ConfigService) {
         super({
             clientID: configService.get<string>('auth.googleOAuth2.clientId'),

@@ -5,7 +5,7 @@ services:
     container_name: services
     hostname: service
     ports:
-      - 2000:3000
+      - 3000:3000
     networks:
       - app-network
     volumes:

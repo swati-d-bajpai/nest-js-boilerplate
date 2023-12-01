@@ -1,4 +1,4 @@
-www.linkedin.com/in/swati-bajpai-7386b2179
+https://www.linkedin.com/in/swati-bajpai-7386b2179/
 [![NestJs][nestjs-shield]][ref-nestjs]
 [![NodeJs][nodejs-shield]][ref-nodejs]
 [![Typescript][typescript-shield]][ref-typescript]
@@ -64,6 +64,10 @@ www.linkedin.com/in/swati-bajpai-7386b2179
 * Stateless Authorization
 * If you want to implement `database transactions`. You must run MongoDB as a `replication set`.
 * If you want to implement `Google SSO`. 
+you may follow this link
+https://dev.to/imichaelowolabi/how-to-implement-login-with-google-in-nest-js-2aoa
+- Copy this link on Browser
+http://127.0.0.1:3000/api/v1/public/user/sign-up/google(for local)
     1. You must have google account, then set your app on `google console` to get the  `clientId` and `clientSecret`.
 * If you change the environment value of `APP_ENV` to `production`, that will trigger.
     1. CorsMiddleware will implement `src/configs/middleware.config.ts`.
@@ -436,7 +440,7 @@ yarn seed
 For remove all data do
 
 ```bash
-yarn rollb
+yarn rollback
 ```
 
 ## API Reference
